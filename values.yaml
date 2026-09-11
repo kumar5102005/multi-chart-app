@@ -1,0 +1,25 @@
+frontend:
+  replicaCount: 3
+  image:
+    repository: nginx
+    tag: latest
+  service:
+    type: NodePort
+    port: 80
+
+backend:
+  replicaCount: 2
+  image:
+    repository: nginx
+    tag: latest
+  service:
+    type: ClusterIP
+    port: 8080
+
+mongodb:
+  replicaCount: 1
+  image:
+    repository: mongo
+    tag: "7"
+  service:
+    port: 27017
