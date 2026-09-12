@@ -3,40 +3,40 @@ entries:
   backend:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-09-11T10:47:04.337333693Z"
+    created: "2026-09-12T01:50:17.808911581Z"
     description: Backend application
     digest: 4df3febbd025152aa94041a4079e3f3fc22828d2ef55395523c1be49c0fbb85e
     name: backend
     type: application
     urls:
-    - charts/backend-0.1.0.tgz
+    - https://kumar5102005.github.io/multi-chart-app/artifacthub/backend-0.1.0.tgz
     version: 0.1.0
   frontend:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-09-11T10:47:04.338004246Z"
+    created: "2026-09-12T01:50:17.809074504Z"
     description: Frontend application
     digest: 602ea8f9103c3e649498fdcbaa9e2190b66e046e89f87b03a5c48e85133cc2d2
     name: frontend
     type: application
     urls:
-    - charts/frontend-0.1.0.tgz
+    - https://kumar5102005.github.io/multi-chart-app/artifacthub/frontend-0.1.0.tgz
     version: 0.1.0
   mongodb:
   - apiVersion: v2
     appVersion: "7"
-    created: "2026-09-11T10:47:04.338266121Z"
+    created: "2026-09-12T01:50:17.809199744Z"
     description: MongoDB database
     digest: 73ddf5e48931dd2aee64f4f6f312b4224333cd8d0e69292428594926f80329f0
     name: mongodb
     type: application
     urls:
-    - charts/mongodb-0.1.0.tgz
+    - https://kumar5102005.github.io/multi-chart-app/artifacthub/mongodb-0.1.0.tgz
     version: 0.1.0
   my-multi-chart-app:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2026-09-11T10:47:04.337013735Z"
+    created: "2026-09-12T01:50:17.809703224Z"
     dependencies:
     - name: frontend
       repository: file://charts/frontend
@@ -52,6 +52,6 @@ entries:
     name: my-multi-chart-app
     type: application
     urls:
-    - artifacthub/my-multi-chart-app-0.1.0.tgz
+    - https://kumar5102005.github.io/multi-chart-app/artifacthub/my-multi-chart-app-0.1.0.tgz
     version: 0.1.0
-generated: "2026-09-11T10:47:04.335808687Z"
+generated: "2026-09-12T01:50:17.808285482Z"
